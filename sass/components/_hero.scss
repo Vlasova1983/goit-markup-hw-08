@@ -1,0 +1,71 @@
+@media (min-device-pixel-ratio: 2),
+       (-webkit-min-device-pixel-ratio: 2),
+       (min-resolution: 192dpi),
+       (min-resolution: 2dppx) {
+          .hero {
+            background-image: url('fonhero1.jpg');
+         }
+        }
+.hero {  
+      
+      
+      background: #C4C4C4; 
+      background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+      url('../images/fonhero.jpg'); 
+   
+      background-size: cover; 
+      background-repeat: no-repeat;
+      background-position: center;
+      
+   
+     padding-bottom: 280px;
+     padding-top: 200px;
+     margin-left: auto;
+     margin-right: auto;
+     align-items: center;
+     text-align: center;
+
+     
+
+     @media screen and (min-width: 480px) {
+      min-width: 480px;
+      height: 400px;
+         
+      }
+  
+      @media screen and (min-width: 768px) {
+      min-width: 768px;
+      height: 400px;
+      
+          
+      }
+      @media screen and (min-width: 1200px) {
+            width: 1600px;
+            height: 600px;    
+                      
+            }
+       }
+       
+     
+     .hero__header {
+    font-weight: 900;
+     line-height:1.66;
+    font-size:26px; 
+    letter-spacing: 0.06em;
+
+    color: var(--color-fon);
+
+    max-width: 696px;
+    margin: auto;
+
+
+      @media screen and (min-width: 768px)  {
+          line-height:1.40;
+          font-size:44px;
+     
+
+          }
+
+   
+    }
+     
