@@ -1,6 +1,8 @@
 .comanda{
     
     background-color: var(--color-fon-two);
+    margin-left: auto;
+    margin-right: auto;
 
     @media screen and (min-width: 1200px) {
       padding-bottom: 94px;
@@ -10,6 +12,18 @@
       padding-bottom: 60px;
     padding-top: 60px;
     }  
+
+    @media screen and (max-width: 767px) {
+     
+      width: 480px;
+                    
+      }
+      @media screen and (min-width: 768px) and (max-width: 1199px) {
+     
+        width: 768px;
+                      
+        }
+
   }
   
   .comanda__header {
@@ -20,18 +34,28 @@
     
     text-align: center;
     margin-bottom: 50px;
+    
+    @media screen and (max-width: 1199px) {
+      font-size:28px;
+      line-height: 1.18;
+      margin-bottom: 30px;
+    }  
+
   }
   
   .comanda__content {
     margin-left: auto;
     margin-right: auto;
+    justify-content: center;
     
 
     @media screen and (min-width: 480px) {
       display: flex; 
       flex-wrap: wrap;
       margin: -15px;            
-      } }  
+      }
+     
+    }  
   
   
   
@@ -39,6 +63,7 @@
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     background-color: var(--color-fon);
+    
 
     & {
       @media screen and (min-width: 768px) {
@@ -50,12 +75,36 @@
       margin-bottom: 30px;
       }
     }
+
+    @media screen and (min-width: 320px) and (max-width:767px) {
+
+      width: 450px;
+      height: 622px;
     }
 
+    @media screen and (min-width: 768px) and (max-width:1199px) {
+
+      width: 354px;
+      height: 536px;
+    }
+  }
     .comanda__content--pos-img {
       display: block;
      text-align: center;
      justify-content: center;
+
+     @media screen and (min-width: 320px) and (max-width:767px) {
+
+      width: 450px;
+      height: 460px;
+    }
+
+    @media screen and (min-width: 768px) and (max-width:1199px) {
+
+      width: 354px;
+      height: 374px;
+    }
+
     }
     
   .comanda__text {
