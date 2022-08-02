@@ -21,6 +21,7 @@
              
     &.is-open .buttom__menu--cross {
         display: block;
+       
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
        
             &:hover, &:focus {
@@ -48,7 +49,7 @@
 
 
 .menu__contener 
-{
+    {
     display: none;
   
     padding: 48px 40px;
@@ -68,11 +69,13 @@
       &.is-open {
         @media screen and (max-width: 768px) {
            display: block;
+           
         }  
 
          } 
+        
 
-      &--list {
+        &--list {
         font-family: Roboto;
          text-decoration: none;
          font-weight: 500;
@@ -152,9 +155,7 @@
  
    }
 
-   
-     
-
+  
    
 
        
