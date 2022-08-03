@@ -50,50 +50,62 @@
                     </svg>
                 </button> 
                 <div class="menu__contener" id="menu-contener" data-menu>
-                    <nav class="menu__contener--nav">
-                        <ul class="list">
-                            <li class="menu__contener--list-pos">
-                                <a href="./index.html" class="menu__contener--list  menu__contener--list-activ">Студія</a>
-                            </li>
-                            <li class="menu__contener--list-pos">
-                                <a href="./portfolio.html" class="menu__contener--list">Портфоліо</a>
-                            </li>
-                            <li class="menu__contener--list-pos">
-                                <a href="#adress" class="menu__contener--list ">Контакти</a>
-                            </li>
-                        </ul>
+                    <div class="menu__contener--close-pos">
+                        <nav class="menu__contener--nav">
                         
-                    </nav>
-                    <div class="menu__contener--contact"> 
-                        <ul class="list ">
-                            <li class="menu__contener--list-pos">
-                                <a href="tel:+380961111111" class="menu__contener--list menu__contener--list-tel">+38 096 111 11 11</a>   
-                            </li>
-                            <li class="">
-                                <a href="mailto:info@devstudio.com" class="menu__contener--list menu__contener--list-mail">info@devstudio.com</a>
-                                
-                            </li>      
-                        </ul>              
-                    </div>
-                    <div class="menu__contener--socio"> 
-                        <ul class="list menu__contener--socio-list">
-                            <li class="menu__contener--socio-list-pos">
-                                <a href="" class="menu__contener--list menu__contener--list-socio">Instagram</a>   
-                            </li>
-                            <li class="menu__contener--socio-list-pos">
-                                <a href="" class="menu__contener--list menu__contener--list-socio">Twitter</a>
-                                
-                            </li> 
-                            <li class="menu__contener--socio-list-pos">
-                                <a href="" class="menu__contener--list menu__contener--list-socio">Facebook</a>
-                                
-                            </li>  
-                            <li class="menu__contener--socio-list-pos">
-                                <a href="" class="menu__contener--list menu__contener--list-socio">LinkedIn</a>
-                                
-                            </li>
-                        </ul>              
-                    </div>
+                            <ul class="list">
+                                <li class="menu__contener--list-pos">
+                                    <a href="./index.html" class="menu__contener--list  menu__contener--list-activ">Студія</a>
+                                </li>
+                                <li class="menu__contener--list-pos">
+                                    <a href="./portfolio.html" class="menu__contener--list">Портфоліо</a>
+                                </li>
+                                <li class="menu__contener--list-pos">
+                                    <a href="#adress" class="menu__contener--list ">Контакти</a>
+                                </li>
+                            </ul>
+                            
+                        </nav>
+                        <div class="menu__contener--contact"> 
+                            <ul class="list ">
+                                <li class="menu__contener--list-pos">
+                                    <a href="tel:+380961111111" class="menu__contener--list menu__contener--list-tel">+38 096 111 11 11</a>   
+                                </li>
+                                <li class="">
+                                    <a href="mailto:info@devstudio.com" class="menu__contener--list menu__contener--list-mail">info@devstudio.com</a>
+                                    
+                                </li>      
+                            </ul>              
+                        </div>
+                        <div class="menu__contener--socio"> 
+    
+                            <ul class="list menu__contener--socio-list">
+                                <li class="menu__contener--socio-list-pos">
+                                    <a href="" class="menu__contener--list  menu__contener--list-socio">Instagram</a>   
+                                </li>
+                                <li class="menu__contener--socio-list-pos">
+                                    <a href="" class="menu__contener--list menu__contener--list-socio">Twitter</a>
+                                    
+                                </li> 
+                                <li class="menu__contener--socio-list-pos">
+                                    <a href="" class="menu__contener--list menu__contener--list-socio">Facebook</a>
+                                    
+                                </li>  
+                                <li class="menu__contener--socio-list-pos">
+                                    <a href="" class="menu__contener--list menu__contener--list-socio">LinkedIn</a>
+                                    
+                                </li>
+                            </ul>
+                                     
+                        </div>
+
+                    </div>                   
+                    
+                    <button type="button"  class="buttom__menu--cross-s" aria-controls="menu-contener" aria-expanded="false" data-menu-buttonn>
+                        <svg  width="40" height="40" aria-label="Переключатель мобильного меню">
+                            <use href="./images/icons.svg#icon-close_40px-1"></use>
+                        </svg>
+                    </button> 
 
                 </div>      
             </div>         
@@ -183,7 +195,7 @@
                 <h2 class="comanda__header">Наша команда</h2>
                 <ul class="list comanda__content">
                     <li class="comanda__content--pos">
-                        <a class="comanda__content--pos-img"><img srcset= "./images/foto1.jpg 1x, ./images/foto1-1.jpg 2x" src="./images/foto1.jpg" alt="Фото Игорь Демьяненко" width="270" height="260"/></a>
+                        <a><img class="comanda__content--pos-img" srcset= "./images/foto1.jpg 1x, ./images/foto1-1.jpg 2x" src="./images/foto1.jpg" alt="Фото Игорь Демьяненко" /></a>
                         <div class="comanda__text">
                             <p class="comanda__fio">Игор Дем'яненко</p>
                             <p lang="en" class="comanda__profeshion">Product Designer</p> 
@@ -220,7 +232,7 @@
                         </div>                        
                     </li>
                     <li class="comanda__content--pos">
-                        <a class="comanda__content--pos-img"> <img srcset= "./images/foto2.jpg 1x, ./images/foto2-1.jpg 2x" src="./images/foto2.jpg" alt="Фото Ольга Репина" width="270" height="260"/></a>
+                        <a><img class="comanda__content--pos-img" srcset= "./images/foto2.jpg 1x, ./images/foto2-1.jpg 2x" src="./images/foto2.jpg" alt="Фото Ольга Репина"/></a>
                         <div class="comanda__text">
                             <p class="comanda__fio">Ольга Репина</p>
                             <p lang="en" class="comanda__profeshion">Frontend Developer </p>
@@ -258,7 +270,7 @@
                         
                     </li>
                     <li class="comanda__content--pos">
-                        <a class="comanda__content--pos-img"> <img srcset= "./images/foto3.jpg 1x, ./images/foto3-1.jpg 2x" src="./images/foto3.jpg" alt="Фото Николай Тарасов" width="270" height="260"/></a>
+                        <a> <img class="comanda__content--pos-img" srcset= "./images/foto3.jpg 1x, ./images/foto3-1.jpg 2x" src="./images/foto3.jpg" alt="Фото Николай Тарасов"/></a>
                         <div class="comanda__text">
                             <p class="comanda__fio">Миколай Тарасов</p>
                             <p lang="en" class="comanda__profeshion">Marketing</p>
@@ -296,7 +308,7 @@
                     </li>                      
                         
                     <li class="comanda__content--pos">
-                        <a class="comanda__content--pos-img"><img srcset= "./images/foto4.jpg 1x, ./images/foto4-1.jpg 2x" src="./images/foto4.jpg" alt="Фото Михаил Ермаков" width="270" height="260"/></a>
+                        <a class="comanda__content--pos-img"><img class="comanda__content--pos-img" srcset= "./images/foto4.jpg 1x, ./images/foto4-1.jpg 2x" src="./images/foto4.jpg" alt="Фото Михаил Ермаков"/></a>
                         <div class="comanda__text">
                             <p class="comanda__fio">Михайло Єрмаков</p>
                             <p lang="en" class="comanda__profeshion"> UI Designer </p>
@@ -520,6 +532,7 @@
     
     <script src="./js/modal.js"></script>
     <script src="./js/mobile-menu.js"></script>
+    <script src="./js/mobile-menu-close.js"></script>
         
 </body>
 </html>
