@@ -6,7 +6,9 @@
     padding-bottom: 60px;
     background-color:#2F303A;
 
-   
+    @media screen and (max-width: 479px){
+      min-width: 480px;
+    }
 
        
   } 
