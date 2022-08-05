@@ -7,42 +7,18 @@
       margin-right: auto;
       display: flex;
       flex-wrap: wrap;
-      margin-right: -15px;
-      margin-left: -15px;
-      
-      
+      justify-content: center;
+      margin: -15px;
+         
     }
     .portfolio-hero__content--pos {
       
        cursor: pointer;
        height: 404px;
-              
+        margin: 15px;      
 
-      @media screen and (min-width: 480x) {
-        margin: -15px;           
-       }
-
-      & {
-        @media screen and (min-width: 768px) {
-          margin: 15px;
-        }
-      }
-      &:not(:last-child) {
-        @media screen and (max-width: 767px) {
-        margin-bottom: 30px;
-        }
-      }
-
-
-      @media screen and (min-width: 320px) and (max-width:767px) {
-        width: 450px;      
-      }  
-      @media screen and (min-width: 768px) and (max-width:1199px) {  
-        width: 354px;      
-      }
-      @media screen and (min-width:1200px) {  
-        width: 370px;       
-      }
+      
+     
     
     }
 
