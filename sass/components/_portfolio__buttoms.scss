@@ -2,16 +2,14 @@
     display:flex;
     flex-wrap: wrap;
      justify-content: center;
- 
-    
-    
+     margin-top: -15px;
+         
      @media screen and (max-width: 768px) {
-      justify-content: left;
+      justify-content: left;     
             
-      }     
-    
+      }        
       
-      @media screen and (max-width: 1199px) {
+      @media screen and (min-width: 480px) and (max-width: 7687px) {
         
         margin-bottom: 30px;          
         }  
@@ -20,21 +18,20 @@
         margin-bottom: 50px;
           
       }
-
+      @media screen and (max-width: 768px) {
+        margin-bottom: 40px;          
+              
+        }     
+     
      }
 
     .portfolio-hero__buttoms--pos {
-
+        margin-top: 15px;
 
 
       &:not(:last-child) {
         margin-right: 8px;
-      }
-     
-        @media screen and (max-width: 767px) {
-        margin-bottom: 15px;
-      
         
       }
-      
+            
     }
