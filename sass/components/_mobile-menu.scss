@@ -47,8 +47,7 @@
 .menu__contener 
     { 
          
-      overflow-y: auto;
-      height: 796px;
+      overflow-y: auto;     
 
     display: none;
     padding: 48px 40px;
@@ -65,17 +64,20 @@
    
     background-color:var(--color-fon);
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08), 0px 1px 3px rgba(0, 0, 0, 0.16);
-    
-   
-       
+           
       }
+      .menu__contener--close-pos {
 
+        overflow-y: auto;
+        height: 100%;
+      }
 
       &.is-open {
         @media screen and (max-width: 768px) {
            display: block;
          
         }  
+        
          }       
 
         &--list {
@@ -170,7 +172,7 @@
             }
 
           }
-       } 
+       
 
  
    
