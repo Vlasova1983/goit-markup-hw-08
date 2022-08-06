@@ -17,9 +17,7 @@
       background-repeat: no-repeat;
       background-position: center;
       
-   
-     padding-bottom: 280px;
-     padding-top: 200px;
+     
      margin-left: auto;
      margin-right: auto;
      align-items: center;
@@ -28,15 +26,18 @@
 
      @media screen and (max-width: 1199px) {
       min-width: 480px;    
-      height: 400px;  
-            
+      height: 400px; 
+
+      padding-bottom: 198px;
+     padding-top: 118px;  
       }
         
       
       @media screen and (min-width: 1200px) {
           
             height: 600px;    
-                      
+            padding-bottom: 280px;
+            padding-top: 200px;        
             }
        }
        
