@@ -957,6 +957,20 @@ button {
   fill: var(--color-acsent);
 }
 
+.menu__contener--close-pos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100%;
+}
+
 .menu__contener {
   overflow-y: auto;
   width: 100%;
@@ -1007,13 +1021,13 @@ button {
   color: var(--color-acsent);
   font-size: 18px;
   line-height: 1.22;
-  padding-left: 10px;
-  margin-left: 10px;
 }
 .menu__contener--list-line {
   border-left: 1px solid rgba(33, 33, 33, 0.2);
   -webkit-transform: rotate(90deg);
           transform: rotate(90deg);
+  padding-left: 10px;
+  margin-left: 10px;
 }
 .menu__contener--list-activ {
   color: var(--color-acsent);
@@ -1057,21 +1071,6 @@ button {
   display: flex;
   text-align: center;
   height: 22px;
-}
-
-.menu__contener--close-pos {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  height: 100%;
-  width: 100%;
 }
 
 .portfolio-hero {
