@@ -149,10 +149,9 @@
   
         display: flex;
         flex-direction: column;
-
-         margin-top: 302px;
- 
+        
           }
+          
       &--socio
       {
         width: 100 vw;
@@ -176,9 +175,11 @@
 
  
         .menu__contener--close-pos {
-      
-          height: 100%;
-          width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 100%;
+      width: 100%;
         }
 
   
