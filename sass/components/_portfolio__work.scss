@@ -1,18 +1,25 @@
     
      
      .portfolio-hero__content {
+
+      
       margin-left: auto;
       margin-right: auto;
       display: flex;
       flex-wrap: wrap;
-      margin: -15px;
-         
+      margin: -15px;         
     }
+
+
     .portfolio-hero__content--pos {
       
        cursor: pointer;
        height: 404px;
-        margin: 15px;      
+       margin: 15px; 
+      
+       @media screen and (min-width: 320px) and (max-width:767px) {
+        width: 100%;
+       }
    
     
     }
@@ -21,6 +28,7 @@
 
       display: inline-block;
       height: 404px;
+      width: 100%;
       border: 1px solid #EEEEEE;
       border-radius: 0px 0px 4px 4px;
        
@@ -38,9 +46,11 @@
         transform:translateY(0);
       }
 
-      @media screen and (min-width: 320px) and (max-width:767px) {
-        width: 450px;      
-      }  
+      @media screen and (min-width: 320px) and (max-width:767px){
+        width: 100%;
+       }
+
+      
       @media screen and (min-width: 768px) and (max-width:1199px) {  
         width: 354px;      
       }
@@ -55,9 +65,10 @@
     .portfolio-hero__content--pos-img {
       height: 294px;
 
-      @media screen and (min-width: 320px) and (max-width:767px) {
-        width: 450px;        
-      }  
+      @media screen and (min-width: 320px) and (max-width:767px){
+        width: 100%;
+       }
+       
       @media screen and (min-width: 768px) and (max-width:1199px) {  
         width: 354px;       
       }
@@ -130,9 +141,15 @@
         line-height: 1.55;
         font-size: 18px;
         padding: 63px 24px;
+       
     
         opacity: 0;
-        
+        @media screen and (min-width: 320px) and (max-width:479px){
+          font-size: 16px;
+          padding: 50px 24px;
+         
+         }
+  
       }
     
             
