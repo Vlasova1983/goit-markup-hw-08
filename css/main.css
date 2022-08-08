@@ -401,7 +401,12 @@ button {
   padding-left: 15px;
   padding-right: 15px;
 }
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .container {
+    max-width: 320px;
+  }
+}
+@media screen and (min-width: 479px) and (max-width: 767px) {
   .container {
     max-width: 480px;
   }
@@ -663,7 +668,7 @@ button {
     line-height: 1.4;
     font-size: 26px;
     line-height: 1.6;
-    max-width: 360px;
+    min-width: 360px;
   }
 }
 
