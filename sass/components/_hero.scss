@@ -29,7 +29,7 @@
       height: 400px; 
 
       padding-bottom: 198px;
-     padding-top: 118px;  
+      padding-top: 118px;  
       }
         
       
@@ -56,10 +56,11 @@
 
 
     @media screen and (max-width: 1199px) {
-          line-height:1.40; font-size:26px;
+          line-height:1.40;
+            font-size:26px;
           line-height:1.6;
 
-          max-width: 360px;
+          min-width: 360px;
 
           }
 
