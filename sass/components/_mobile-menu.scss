@@ -128,10 +128,11 @@
         }
 
         &--list-line {
-          border-left: 1px solid rgba(33, 33, 33, 0.2);
-          transform: rotate(90deg);
           padding-left: 10px;    
           margin-left: 10px; 
+          border-left: 1px solid rgba(33, 33, 33, 0.2);
+          transform: rotate(90deg);
+          
         }
 
         
