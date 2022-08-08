@@ -189,7 +189,7 @@ button {
       flex-wrap: wrap;
   margin: -15px;
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .clients__content {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -216,7 +216,12 @@ button {
   fill: var(--color-acsent);
   border: 1px solid var(--color-acsent);
 }
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .client__icon {
+    width: 130px;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 767px) {
   .client__icon {
     width: 210px;
   }
@@ -295,11 +300,6 @@ button {
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   background-color: var(--color-fon);
   margin: 15px;
-}
-@media screen and (min-width: 320px) and (max-width: 479px) {
-  .comanda__content--pos {
-    width: 100%;
-  }
 }
 @media screen and (min-width: 480px) and (max-width: 767px) {
   .comanda__content--pos {
@@ -489,6 +489,7 @@ button {
 }
 
 .quality {
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -503,32 +504,33 @@ button {
     padding-bottom: 60px;
   }
 }
-@media screen and (max-width: 479px) {
-  .quality {
-    min-width: 480px;
-  }
-}
 
 .quality__header {
   font-size: 0;
 }
 
 .quality__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   margin-left: auto;
   margin-right: auto;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 100%;
 }
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 480px) and (max-width: 1200px) {
+  .quality__content {
+    margin: -15px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 1200px) {
   .quality__content {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    margin: -15px;
   }
 }
 
@@ -550,9 +552,14 @@ button {
       -ms-flex-align: center;
           align-items: center;
 }
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 479px) {
   .quality__icon {
-    width: 100%;
+    width: 320px;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .quality__icon {
+    width: 450x;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
@@ -645,9 +652,9 @@ button {
           align-items: center;
   text-align: center;
 }
-@media screen and (max-width: 1199px) {
+@media screen and (min-width: 320px) and (max-width: 1199px) {
   .hero {
-    min-width: 480px;
+    min-width: 320px;
     height: 400px;
     padding-bottom: 198px;
     padding-top: 118px;
@@ -742,7 +749,12 @@ button {
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
 }
-@media screen and (min-width: 320px) and (max-width: 1199px) {
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .modal {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 1199px) {
   .modal {
     min-width: 450px;
     min-height: 609px;
@@ -917,7 +929,7 @@ button {
 
 .form__icon-svg {
   position: absolute;
-  top: 5px;
+  top: 4px;
   left: 10px;
   color: var(--color-buttom);
   border-radius: 4px;
@@ -932,6 +944,11 @@ button {
 @media screen and (min-width: 1200px) {
   .form__icon-svg {
     left: 30px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .form__icon-svg {
+    left: -10px;
   }
 }
 
@@ -1086,6 +1103,7 @@ button {
   display: flex;
   text-align: center;
   height: 22px;
+  width: 100%;
 }
 
 .portfolio-hero {
@@ -1129,10 +1147,16 @@ button {
   height: 404px;
   margin: 15px;
 }
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .portfolio-hero__content--pos {
+    width: 100%;
+  }
+}
 
 .portfolio-hero__block {
   display: inline-block;
   height: 404px;
+  width: 100%;
   border: 1px solid #EEEEEE;
   border-radius: 0px 0px 4px 4px;
   -webkit-transition: -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -1156,7 +1180,7 @@ button {
 }
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .portfolio-hero__block {
-    width: 450px;
+    width: 100%;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
@@ -1175,7 +1199,7 @@ button {
 }
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .portfolio-hero__content--pos-img {
-    width: 450px;
+    width: 100%;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
@@ -1248,6 +1272,12 @@ button {
   font-size: 18px;
   padding: 63px 24px;
   opacity: 0;
+}
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .portfolio-hero__thumb-text {
+    font-size: 16px;
+    padding: 50px 24px;
+  }
 }
 
 .portfolio-hero__buttoms {
@@ -1409,11 +1439,6 @@ button {
   padding-bottom: 60px;
   background-color: #2F303A;
 }
-@media screen and (max-width: 479px) {
-  .footer {
-    min-width: 480px;
-  }
-}
 
 .footer__flex {
   display: -webkit-box;
@@ -1545,7 +1570,6 @@ button {
 }
 
 .footer__input {
-  min-width: 358px;
   height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -1559,11 +1583,17 @@ button {
 @media screen and (max-width: 767px) {
   .footer__input {
     margin-bottom: 30px;
+    width: 100%;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .footer__input {
     min-width: 450px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .footer__input {
+    min-width: 358px;
   }
 }
 
