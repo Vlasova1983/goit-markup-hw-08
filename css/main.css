@@ -1023,11 +1023,11 @@ button {
   line-height: 1.22;
 }
 .menu__contener--list-line {
+  padding-left: 10px;
+  margin-left: 10px;
   border-left: 1px solid rgba(33, 33, 33, 0.2);
   -webkit-transform: rotate(90deg);
           transform: rotate(90deg);
-  padding-left: 10px;
-  margin-left: 10px;
 }
 .menu__contener--list-activ {
   color: var(--color-acsent);
