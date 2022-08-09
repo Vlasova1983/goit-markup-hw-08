@@ -175,6 +175,12 @@ button {
 }
 
 .clients__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: -15px;
   fill: var(--color-icon);
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -182,22 +188,9 @@ button {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  margin: -15px;
 }
-@media screen and (min-width: 320px) {
-  .clients__content {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    margin: -15px;
-  }
+.clients__content--pos {
+  margin: 15px;
 }
 
 .client__icon {
@@ -218,7 +211,7 @@ button {
 }
 @media screen and (min-width: 320px) and (max-width: 479px) {
   .client__icon {
-    width: 130px;
+    width: 100%;
   }
 }
 @media screen and (min-width: 480px) and (max-width: 767px) {
@@ -235,10 +228,6 @@ button {
   .client__icon {
     width: 170px;
   }
-}
-
-.clients__content--pos {
-  margin: 15px;
 }
 
 .comanda {
@@ -277,21 +266,17 @@ button {
 }
 
 .comanda__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   margin-left: auto;
   margin-right: auto;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   margin: -15px;
-}
-@media screen and (min-width: 480px) {
-  .comanda__content {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
 }
 
 .comanda__content--pos {
@@ -300,6 +285,11 @@ button {
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   background-color: var(--color-fon);
   margin: 15px;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .comanda__content--pos {
+    width: 100%;
+  }
 }
 @media screen and (min-width: 480px) and (max-width: 767px) {
   .comanda__content--pos {
@@ -552,14 +542,9 @@ button {
       -ms-flex-align: center;
           align-items: center;
 }
-@media screen and (min-width: 320px) and (max-width: 479px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .quality__icon {
-    width: 320px;
-  }
-}
-@media screen and (min-width: 480px) and (max-width: 767px) {
-  .quality__icon {
-    width: 450x;
+    width: 100%;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
