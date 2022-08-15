@@ -1,37 +1,30 @@
 .portfolio-hero__buttoms {
-    display:flex;
-    flex-wrap: wrap;
-     justify-content: center;
-     margin-top: -15px;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: -15px;
          
-     @media screen and (max-width: 768px) {
-      justify-content: left;     
-            
-      }        
+  @media screen and (max-width: 768px) {
+    justify-content: left;     
+  }        
       
-      @media screen and (min-width: 480px) and (max-width: 7687px) {
-        
-        margin-bottom: 30px;          
-        }  
+  @media screen and (min-width: 480px) and (max-width: 7687px) {
+   margin-bottom: 30px;          
+  }  
   
-      @media screen and (min-width: 1200px) {
-        margin-bottom: 50px;
-          
-      }
-      @media screen and (max-width: 768px) {
-        margin-bottom: 40px;          
-              
-        }     
-     
-     }
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 50px;
+  }
 
-    .portfolio-hero__buttoms--pos {
-        margin-top: 15px;
+  @media screen and (max-width: 768px) {
+    margin-bottom: 40px;          
+  }     
+}
 
+.portfolio-hero__buttoms--pos {
+  margin-top: 15px;
 
-      &:not(:last-child) {
-        margin-right: 8px;
-        
-      }
-            
-    }
+  &:not(:last-child) {
+    margin-right: 8px;
+  }
+}
