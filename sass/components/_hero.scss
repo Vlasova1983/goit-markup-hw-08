@@ -2,13 +2,13 @@
        (-webkit-min-device-pixel-ratio: 2),
        (min-resolution: 192dpi),
        (min-resolution: 2dppx) {
-          .hero {
+          
+      .hero {
             background-image: url('fonhero1.jpg');
-         }
-        }
+      }
+}
 
-.hero {  
-      
+.hero {       
       background: #C4C4C4; 
       background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
       url('../images/fonhero.jpg'); 
@@ -31,39 +31,31 @@
       padding-bottom: 198px;
       padding-top: 118px;  
       }
-        
-      
+       
       @media screen and (min-width: 1200px) {
-          
             height: 600px;    
             padding-bottom: 280px;
             padding-top: 200px;        
-            }
-       }
+                  
+      }
+}
        
-     
-     .hero__header {
-
+.hero__header {
     font-weight: 900;
     letter-spacing: 0.06em;
     color: var(--color-fon);
-    margin: auto;
-   
+    margin: auto;   
  
-@media screen  and (min-width: 480px) and (max-width: 1199px) {
-      
-      font-size:26px;
-      line-height:1.6;
-      max-width: 360px;
-                   }
+      @media screen  and (min-width: 480px) and (max-width: 1199px) {      
+            font-size:26px;
+            line-height:1.6;
+            max-width: 360px;
+      }
 
-    @media screen and (min-width: 1200px) {
-          
+      @media screen and (min-width: 1200px) {          
           font-size:44px;
           line-height:1.36;  
           max-width: 696px;
-
-          }
-        
-    }
+      }
+}
      
