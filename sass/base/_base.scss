@@ -1,39 +1,40 @@
 body {
-    background-color: var(--color-fon);
-    color: var(--color-text);
-    font-family: Roboto, sans-serif;    
-    text-decoration: none;
-    margin:0;
+  background-color: var(--color-fon);
+  color: var(--color-text);
+  font-family: Roboto, sans-serif;    
+  text-decoration: none;
+  margin:0;
     
-   }
+}
 
-   body.modal-open {
-    overflow: hidden;
-   }
+body.modal-open {
+  overflow: hidden;
+}
      
-   .list{
-    margin: 0;
-    padding: 0;
+.list{
+  margin: 0;
+  padding: 0;
+}
 
-   }
-  ul {
-    list-style: none;
-    
-  }
-  h1,
-  h2,
-  h3 {
-    margin-top: 0;
-    margin-bottom: 0;
-   }
-   a {
-    outline: 0;
-    }
+ul {
+  list-style: none;    
+}
+
+h1,
+h2,
+h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+a {
+  outline: 0;
+}
    
 
-   button {
-    outline: 0;
-   }
+button {
+  outline: 0;
+}
 
    
    
